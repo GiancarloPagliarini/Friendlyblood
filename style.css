@@ -1,0 +1,83 @@
+.nav .nav-link.active,
+#type-blood button.active {
+    background-color: #712f2f;
+    color: #FFF;
+}
+
+.nav .nav-link {
+    font-weight: 500;
+}
+
+.navbar {
+    background-color: #cb5a5a;
+}
+
+.title-section {
+    color: #5d1919;
+}
+
+#donation-blood,
+#cuidados-pre-doacao {
+    background-color: #f1cfcf;
+}
+
+#donation-blood p,
+#cuidados-pre-doacao p{ 
+    font-size: 17px;
+}
+
+#quem-pode-doar p {
+    font-size: 17px;
+}
+
+#type-blood button {
+    color: #5d1919;
+}
+
+.sub-title-last-section {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+aside {
+    border: 1px solid #000;
+    box-shadow: 2px 2px 2px black;;
+}
+
+
+
+@media screen and (max-width: 687px) {
+    .carousel {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sub-title-last-section {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .image-responsive {
+        margin-top: 48px;
+        text-align: center;
+    }
+
+    aside {
+        margin: 0 auto;
+        width: 90% !important;
+    }
+ 
+    .carousel-indicators {
+        display: none !important;
+    } 
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .nav .nav-link {
+        font-size: 13px;
+    }
+} 
+

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Friendly blood</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg p-0 sticky-top" id="top-header">
+        <div class="container">
+            <div class="logo-header">
+                <a href="#doacao-sangue">
+                    <img src="./images/Logo friendly blood (2).png" alt="Logo do site - uma gota de sangue">
+                </a>
+            </div>
+            <button type="button" class="navbar-toggler bg-white" data-bs-toggle="collapse" data-bs-target="#menu-navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end " id="menu-navigation">
+                <ul class="nav navbar-nav nav-pills text-center">
+                    <li class="nav-item">
+                        <a class="nav-link text-white active" href="#doacao-sangue">
+                            <i class="bi bi-droplet-half me-1"></i>
+                            Doação de sangue
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#quem-pode-doar">
+                            <i class="bi bi-heart-pulse me-1"></i>
+                            Quem pode doar?
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#cuidados-pre-doacao">
+                            <i class="bi bi-clipboard2-pulse"></i>
+                            Cuidados pré-doação
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#para-quem-posso-doar">
+                            <i class="bi bi-people-fill me-1"></i>
+                            Para quem posso doar?
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#top-header" data-bs-smooth-scroll="true">
+        <section id="doacao-sangue">
+            <div class="carousel slide carousel-fade" data-bs-ride="carousel" id="first-carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <img class="d-block w-100" src="./images/slides/Group 1.png" alt="Explicando a importância da doação de sangue">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img class="d-block w-100" src="./images/slides/Group 2.png" alt="Trazendo informação sobre doação de sangue">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <img class="d-block w-100" src="./images/slides/Group 3.png" alt="Explicando quais sangues mais precisamos ">
+                    </div>
+                </div>
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-slide-to="0" data-bs-target="#first-carousel"></button>
+                    <button type="button" data-bs-slide-to="1" data-bs-target="#first-carousel"></button>
+                    <button type="button" data-bs-slide-to="2" data-bs-target="#first-carousel"></button>
+                </div>
+            </div>
+            <div id="donation-blood">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="fw-bold title-section text-center pt-5 pb-5">Doação de sangue</h2>
+                    </div>
+                    <div class="row pb-5">
+                        <div class="col-md-5">
+                            <img class="w-100" src="./images/images-sections/section 1.png" alt="Duas pessoas felizes">
+                        </div>
+                        <div class="col-md-7">
+                            <h4 class="fw-bold sub-title mt-3" >Como funciona a doação de sangue?</h4>
+                            <p>
+                                A doação de sangue é um ato voluntário e altruísta em que uma pessoa saudável doa uma certa quantidade de sangue para um banco de sangue ou hospital. Esse sangue é usado para <span class="fw-bold" >salvar vidas</span> em casos de emergência, cirurgias, tratamentos de doenças graves e outros procedimentos médicos que exigem transfusão de sangue.
+                            </p>
+                            <p>
+                                Caso seja considerada apta a doar, a pessoa é encaminhada para a coleta de sangue. A coleta de sangue é feita por meio de uma agulha colocada em uma veia do braço, e o sangue é coletado em uma bolsa especial estéril.
+                            </p>
+                            <h4 class="fw-bold sub-title mt-3" >É seguro fazer a doação?</h4>
+                            <p>
+                                A doação de sangue é um procedimento seguro e não causa danos à saúde do doador. Além disso, uma única doação de sangue pode salvar até <span class="fw-bold" >quatro vidas</span>. Por isso, é importante incentivar a doação de sangue e conscientizar a população sobre sua importância.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="quem-pode-doar">
+            <div class="container">
+                <div class="row">
+                    <h2 class="fw-bold title-section text-center pt-5 pb-5" >Quem pode doar?</h2>
+                </div>
+                <div class="row pb-5">
+                    <div class="col-md-5">
+                        <img class="w-100" src="./images/images-sections/section 2.png" alt="Duas mãos se doando sangue">
+                    </div>
+                    <div class="col-md-7">
+                        <h4 class="fw-bold sub-title mt-3" >Quais os requisitos para realizar a doação?</h4>
+                        <p>No Brasil, os requisitos básicos para doação de sangue são os seguintes:
+                        </p>
+                        <ul>
+                            <li>
+                                <p>
+                                    <span class="fw-bold" >Idade:</span> entre 16 e 69 anos. Menores de 18 anos precisam de autorização dos pais ou responsáveis legais para doar sangue.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <span class="fw-bold" >Peso:</span> igual ou superior a 50 kg.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <span class="fw-bold" >Saúde:</span> o doador precisa estar em boas condições de saúde e não apresentar sintomas de doenças infecciosas. Além disso, não pode ter tido algumas doenças, como malária, hepatite B e C, sífilis, doença de Chagas, HIV, entre outras.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <span class="fw-bold" >Medicamentos:</span> o doador deve informar se está usando algum medicamento.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <span class="fw-bold" >Alimentação:</span> é recomendado que o doador tenha feito uma refeição leve nas últimas quatro horas antes da doação, evitando alimentos gordurosos.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <span class="fw-bold" >Comportamento sexual:</span> para garantir a segurança do sangue doado, é preciso que o doador informe se teve ou tem práticas sexuais consideradas de risco, como relações sexuais sem proteção, com múltiplos parceiros ou com parceiros desconhecidos.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cuidados-pre-doacao">
+            <div class="container">
+                <div class="row">
+                    <h2 class="fw-bold title-section text-center pt-5 pb-5" >Cuidados pré-doação</h2>
+                </div>
+                <div class="row pb-5">
+                    <div class="col-md-5">
+                        <img class="w-100" src="./images/images-sections/section 3.png" alt="Médica cuidando de dois pacientes">
+                    </div>
+                    <div class="col-md-7">
+                        <h4 class="fw-bold sub-title mt-3" >O que devemos fazer antes de doar sangue?</h4>
+                        <p>Antes de doar sangue, é importante seguir algumas recomendações para garantir que a doação seja segura tanto para o doador quanto para o receptor do sangue. Algumas dicas importantes incluem:</p>
+                        <ol>
+                            <li>
+                                <p>
+                                    <span class="fw-bold" >Hidratar-se bem:</span> beber bastante água ajuda a manter o volume de sangue no organismo e torna a doação mais fácil e segura.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <span class="fw-bold" >Comer bem:</span> fazer uma refeição leve e saudável, como frutas, pães integrais e sucos naturais, ajuda a manter os níveis de glicose e ferro no organismo.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <span class="fw-bold" >Evitar bebidas alcoólicas e fumar:</span> bebidas alcoólicas e cigarros podem afetar a qualidade do sangue e prejudicar a doação.
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <span class="fw-bold" >Não tomar medicamentos:</span> alguns medicamentos podem interferir na doação de sangue, por isso é importante informar o hemocentro sobre qualquer medicação que esteja sendo usada.
+                                </p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="para-quem-posso-doar">
+            <div class="container">
+                <div class="row">
+                    <h2 class="fw-bold title-section text-center pt-5 pb-5" >Para quem posso doar?</h2>
+                </div>
+                <div class="row pb-5">
+                    <aside class="col-md-2 rounded mb-5">
+                        <h4 class="fw-bold sub-title mb-4 sub-title-last-section mt-3">Selecione seu tipo sanguíneo:</h4>
+                        <nav class="nav nav-pills flex-column nav-blood" id="type-blood">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#a+" class="nav-link fw-bold active text-start">Sangue A+</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#a-" class="nav-link fw-bold text-start">Sangue A-</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#b+" class="nav-link fw-bold text-start">Sangue B+</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#b-" class="nav-link fw-bold text-start">Sangue B-</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#ab+" class="nav-link fw-bold text-start">Sangue AB+</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#ab-" class="nav-link fw-bold text-start">Sangue AB-</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#o+" class="nav-link fw-bold text-start">Sangue O+</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#o-" class="nav-link fw-bold text-start">Sangue O-</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="a+">
+                                <div class="row">
+                                    <div class="col-md-6 text-center">
+                                        <img class="w-50" src="./images/images-sections/tipos-sanguineos/A+/De quem posso receber a+.png" alt="recebe de A+, A-, O+ e O-">
+                                    </div>
+                                    <div class="col-md-6 image-responsive">
+                                        <img class="w-50" src="./images/images-sections/tipos-sanguineos/A+/Para quem posso doar A+.png" alt="doa para AB+ e A+">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="a-">
+                                <div class="row">
+                                    <div class="col-md-6 text-center">
+                                        <img class="w-50" src="./images/images-sections/tipos-sanguineos/A-/De quem posso receber A-.png" alt="recebe de A+ e O-">
+                                    </div>
+                                    <div class="col-md-6 image-responsive">
+                                        <img class="w-50" src="./images/images-sections/tipos-sanguineos/A-/para quem posso doar A-.png" alt="doa para A+, A-, AB+ e AB-">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="b+">
+                                <div class="row">
+                                    <div class="col-md-6 text-center">
+                                        <img class="w-50" src="./images/images-sections/tipos-sanguineos/B+/de quem posso receber B+.png" alt="recebe de B+, B-, O+ E O-">
+                                    </div>
+                                    <div class="col-md-6 image-responsive">
+                                        <img class="w-50" src="./images/images-sections/tipos-sanguineos/B+/para quem posso doar B+.png" alt="doa para B+ e AB+">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="b-">
+                                <div class="row">
+                                    <div class="col-md-6 text-center">
+                                        <img class="w-50" src="./images/images-sections/tipos-sanguineos/B-/de quem posso receber B-.png" alt="recebe de B- e O-">
+                                    </div>
+                                    <div class="col-md-6 image-responsive">
+                                        <img class="w-50" src="./images/images-sections/tipos-sanguineos/B-/para quem posso doar B-.png" alt="doa para B+, B-, AB+ E AB-">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="ab+">
+                                <div class="row">
+                                    <div class="col-md-6 text-center">
+                                        <img class="w-50" src="./images/images-sections/tipos-sanguineos/AB+/de quem posso receber.png" alt="recebe de  A+, B+, O+, AB+, A-, B-, O- e AB-">
+                                    </div>
+                                    <div class="col-md-6 image-responsive">
+                                        <img class="w-50" src="./images/images-sections/tipos-sanguineos/AB+/para quem posso doar.png" alt="doa para AB+">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="ab-">
+                                <div class="row">
+                                    <div class="col-md-6 text-center">
+                                        <img class="w-50" src="./images/images-sections/tipos-sanguineos/AB-/de quem posso receber ab-.png" alt="recebe de A-, B-, O- e AB-">
+                                    </div>
+                                    <div class="col-md-6 image-responsive">
+                                        <img class="w-50" src="./images/images-sections/tipos-sanguineos/AB-/para quem posso doar ab-.png" alt="doa para AB+ AB-">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="o+">
+                                <div class="row">
+                                    <div class="col-md-6 text-center">
+                                        <img class="w-50" src="./images/images-sections/tipos-sanguineos/O+/de quem posso receber o+.png" alt="recebe de O+ e O-">
+                                    </div>
+                                    <div class="col-md-6 image-responsive">
+                                        <img class="w-50" src="./images/images-sections/tipos-sanguineos/O+/para quem posso doar o+.png" alt="doa para A+, B+, O+ e AB+">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="o-">
+                                <div class="row">
+                                    <div class="col-md-6 text-center">
+                                        <img class="w-50" src="./images/images-sections/tipos-sanguineos/O-/de quem posso receber o-.png" alt="recebe de O-">
+                                    </div>
+                                    <div class="col-md-6 image-responsive">
+                                        <img class="w-50" src="./images/images-sections/tipos-sanguineos/O-/para quem posso doar o-.png" alt="doa para A+, B+, O+, AB+, A-, B-, O- e AB-">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
